@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+}
+
+header {
+  height: 500px;
+  width: 100%;
+  background-image: url("https://www.gotokyo.org/it/destinations/southern-tokyo/images/499_0354_2.jpg");
+  position: static;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#overlay {
+  position: absolute; 
+  width: 100%; 
+  height: 500px; 
+  background-color: rgba(0,0,0,0.4); 
+  z-index: 0; 
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+  max-width: 780px;
+  z-index: 1;
+  font-size: 40px;
+}
+
+nav{
+  font-family: 'Montserrat', sans-serif;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top:20px;
+  left: 10px;
+}
+
+a{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 15px;
+  color:lightblue;
+}
+
+
+#pic {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  position: relative;
+  margin-top:-70px;
+  height: max-content;
+}
+
+
+#status{
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  line-height: normal;
+  color:lightsteelblue;
+  font-size: 17px;
+}
+
+
+#name{
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color:royalblue;
+}
+
+
+#main{
+  margin-left: auto;
+  margin-right: auto;
+  width: 66.67%;
+  font-size: 40px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.review{
+  display: flex;
+  flex-direction: row;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  color:rgba(0,0,0,0.8);
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.number{
+font-weight: bold;
+font-family: 'Libre Baskerville', serif;
+color: rgba(0,0,0,0.6);
+display:flex;
+flex-direction: row;
+margin-right: 40px;
+margin-left: -50px;
+}
+
+.text{
+  margin-top: 20px;
+  font-size: .6em;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: normal;
+}
+
+.img{
+  margin-bottom: 120px;
+}
+
+
+footer {
+  background-color:lightslategray;
+  height: 100px;
+}
+
+footer h2 {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-family: 'Lato', sans-serif;
+  justify-content: center;
+  position:  relative;
+  top:20px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+
+@media (max-width: 600px){
+  #main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.67%;
+    font-size: 55px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  } 
+ 
+  .text{
+    margin-top: 20px;
+    font-size: .6em;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: normal;
+  }
+  
+}
